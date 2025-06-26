@@ -32,13 +32,14 @@ const StyledTabList = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+  justify-content: flex-start;
 `;
 const StyledTabButton = styled.button`
   ${({ theme }) => theme.mixins.link};
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-width: 140px;
   height: var(--tab-height);
   padding: 0 16px;
@@ -47,7 +48,7 @@ const StyledTabButton = styled.button`
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   &:hover,
   &:focus {
