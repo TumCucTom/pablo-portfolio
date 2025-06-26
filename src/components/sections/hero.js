@@ -60,28 +60,22 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Pablo Moya-Angeler Lozano.</h2>;
+  const three = <h3 className="big-heading">Entrepreneur in EdTech.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+      I am a highly analytical and motivated individual with a strong foundation in finance, mathematics, and data-driven problem solving. My academic background in Mathematics and Philosophy at the University of Bristol, combined with certifications in CFA Level 1, private markets, and real estate finance, reflect my commitment to rigorous thinking and applied financial expertise.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://fini-edu.com"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Checkout Fini!
     </a>
   );
 

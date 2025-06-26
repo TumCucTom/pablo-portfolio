@@ -125,8 +125,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -135,38 +133,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I am a highly analytical and motivated individual with a strong foundation in finance, mathematics, and data-driven problem solving. My academic background in Mathematics and Philosophy at the University of Bristol, combined with certifications in CFA Level 1, private markets, and real estate finance, reflect my commitment to rigorous thinking and applied financial expertise.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              As Co-Founder and CEO of Fini, a gamified financial education platform, I lead a 13-person team across content, growth, and product development, currently overseeing our MVP in internal development. My entrepreneurial mindset is grounded in hands-on experience across venture capital and health tech, where I have contributed to investment research, due diligence, and solution design.
             </p>
-
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I bring strong communication skills and a collaborative spirit to everything I do, thriving in fast-paced environments that demand strategic thinking and initiative. I am passionate about building accessible financial tools and always eager to take on challenges that combine innovation, education, and impact.
             </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>

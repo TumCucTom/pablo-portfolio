@@ -1,15 +1,9 @@
 ---
 date: '2017-12-27'
-title: 'Halcyon Theme'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
-tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+title: 'Fini'
+github: ''
+external: 'https://fini-edu.com'
 showInProjects: false
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+FINI is a gamified app that makes learning about money fun and interactive. Explore themed worlds, unlock video lessons and challenges, and build real financial skills at your own pace. Join a community of learners and turn financial education into an adventure—one world at a time.
