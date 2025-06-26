@@ -25,74 +25,35 @@ const StyledJobsSection = styled.section`
 `;
 
 const StyledTabList = styled.div`
-  position: relative;
-  z-index: 3;
-  width: max-content;
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0 0 30px 0;
   list-style: none;
-
-  @media (max-width: 600px) {
-    display: flex;
-    overflow-x: auto;
-    width: calc(100% + 100px);
-    padding-left: 50px;
-    margin-left: -50px;
-    margin-bottom: 30px;
-  }
-  @media (max-width: 480px) {
-    width: calc(100% + 50px);
-    padding-left: 25px;
-    margin-left: -25px;
-  }
-
-  li {
-    &:first-of-type {
-      @media (max-width: 600px) {
-        margin-left: 50px;
-      }
-      @media (max-width: 480px) {
-        margin-left: 25px;
-      }
-    }
-    &:last-of-type {
-      @media (max-width: 600px) {
-        padding-right: 50px;
-      }
-      @media (max-width: 480px) {
-        padding-right: 25px;
-      }
-    }
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
   }
 `;
 
 const StyledTabButton = styled.button`
   ${({ theme }) => theme.mixins.link};
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  min-width: 140px;
   height: var(--tab-height);
-  padding: 0 20px 2px;
-  border-left: 2px solid var(--lightest-navy);
-  background-color: transparent;
+  padding: 0 16px;
+  border: none;
+  background: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
-
-  @media (max-width: 768px) {
-    padding: 0 15px 2px;
-  }
-  @media (max-width: 600px) {
-    ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
-    padding: 0 15px;
-    border-left: 0;
-    border-bottom: 2px solid var(--lightest-navy);
-    text-align: center;
-  }
-
   &:hover,
   &:focus {
     background-color: var(--light-navy);
@@ -244,7 +205,7 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+      <h2 className="numbered-heading">Where I've Worked</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
