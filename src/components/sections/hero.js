@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I am a highly analytical and motivated individual with a strong foundation in finance, mathematics, and data-driven problem solving. My academic background in Mathematics and Philosophy at the University of Bristol, combined with certifications in CFA Level 1, private markets, and real estate finance, reflect my commitment to rigorous thinking and applied financial expertise.
+        I am an energetic, multilingual individual with UK, US, and Spanish citizenship, fluent in English and Spanish, and conversational in Portuguese. Having lived across Mexico City, Boston, Madrid, and Bristol, I bring a global, adaptable mindset to everything I do, paired with a deep sense of curiosity, initiative, and strong communication skills. I naturally take on leadership roles and thrive when coordinating teams toward ambitious, mission-driven goals.
       </p>
     </>
   );

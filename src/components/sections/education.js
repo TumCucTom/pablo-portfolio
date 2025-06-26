@@ -11,6 +11,7 @@ const StyledEducationSection = styled.section`
   max-width: 700px;
   .inner {
     display: flex;
+    flex-direction: column;
     @media (max-width: 600px) {
       display: block;
     }

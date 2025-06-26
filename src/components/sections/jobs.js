@@ -12,12 +12,10 @@ const StyledJobsSection = styled.section`
 
   .inner {
     display: flex;
-
+    flex-direction: column;
     @media (max-width: 600px) {
       display: block;
     }
-
-    // Prevent container from jumping
     @media (min-width: 700px) {
       min-height: 340px;
     }

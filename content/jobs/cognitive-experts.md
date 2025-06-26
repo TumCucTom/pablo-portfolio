@@ -4,6 +4,7 @@ company: "Cognitive Experts"
 location: "Madrid"
 range: "Sep - Nov 2022"
 url: "https://cognitive-experts.com"
+date: "2022-09-01"
 ---
 *Artificial intelligence company based in Spain and Mexico*
 

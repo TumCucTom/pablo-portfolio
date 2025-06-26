@@ -133,13 +133,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am a highly analytical and motivated individual with a strong foundation in finance, mathematics, and data-driven problem solving. My academic background in Mathematics and Philosophy at the University of Bristol, combined with certifications in CFA Level 1, private markets, and real estate finance, reflect my commitment to rigorous thinking and applied financial expertise.
+              Professionally, I serve as Co-Founder and CEO of Fini, a gamified financial education platform targeting youth and young adults. I lead a 13-person team across content, growth, and product development, managing the internal MVP process and long-term product strategy. My work experience includes venture capital, health tech, and AI, where I've delivered due diligence, market research, and technical analyses in fast-paced, results-driven environments.
             </p>
             <p>
-              As Co-Founder and CEO of Fini, a gamified financial education platform, I lead a 13-person team across content, growth, and product development, currently overseeing our MVP in internal development. My entrepreneurial mindset is grounded in hands-on experience across venture capital and health tech, where I have contributed to investment research, due diligence, and solution design.
+              Academically, I study Mathematics and Philosophy at the University of Bristol, where my degree combines quantitative precision with logical and ethical reasoning. I have supplemented this with independent finance education, including passing CFA Level 1, completing investment programs at Oxford and LSE, and earning a general accounting certificate with top marks.
             </p>
             <p>
-              I bring strong communication skills and a collaborative spirit to everything I do, thriving in fast-paced environments that demand strategic thinking and initiative. I am passionate about building accessible financial tools and always eager to take on challenges that combine innovation, education, and impact.
+              I am a highly analytical and solutions-oriented thinker who thrives at the intersection of strategy, data, and creativity. Whether building a startup, researching market dynamics, or solving abstract problems, I approach challenges with energy, focus, and a long-term commitment to meaningful impact.
             </p>
           </div>
         </StyledText>

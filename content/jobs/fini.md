@@ -4,6 +4,7 @@ company: "FINI"
 location: "United Kingdom"
 range: "Mar 2025 – Present"
 url: "https://fini-edu.com"
+date: "2030-01-01"
 ---
 *Gamified financial education platform targeting youth and young adults*
 
