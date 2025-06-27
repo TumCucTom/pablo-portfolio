@@ -3,10 +3,10 @@
   <!-- Add Pablo's logo here if available -->
 </div>
 <h1 align="center">
-  pablomoya.com - v1
+  pmoya.com
 </h1>
 <p align="center">
-  The first iteration of <a href="https://pablomoya.com" target="_blank">pablomoya.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first iteration of <a href="https://pablomoya.com" target="_blank">pmoya.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <!--
 <p align="center">
@@ -28,15 +28,15 @@
 
 ## 🚨 Forking this repo (please read!)
 
-This project is now for Pablo Moya-Angeler Lozano. If you wish to use this code for your own website, please provide proper attribution.
+This project is now for Pablo Moya-Angeler Lozano. If you wish to use this code for your own website, please provide proper attribution to the repo this was forked from.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. Please do not claim this effort as your own.
+_**Plagiarism is bad**_. Please do not claim this effort as your own.
 
 Please also note that this site was not built as a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give proper credit by linking back to [pablomoya.com](https://pablomoya.com). Thanks!
+Yes, you can fork this repo. Please give proper credit by linking back to the repo this was forked from.
 
 ## 🛠 Installation & Set Up
 
